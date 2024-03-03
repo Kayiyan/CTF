@@ -1,4 +1,4 @@
-![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/c68ff369-8138-452c-a2ab-c1fc500449a1)# Router |port|
+# Router |port|
 
 ## Description
 
@@ -1040,5 +1040,10 @@ SERVER_HANDSHAKE_TRAFFIC_SECRET c78dff94de43670828efaac938b40d0cfd8eaf86036c3b7c
 SERVER_TRAFFIC_SECRET_0 c78dff94de43670828efaac938b40d0cfd8eaf86036c3b7ccb42c9be7ea904a2 2ddcea0faaf441c29f310c39ced9af2fd5f2fab971d2c62c796e3c563dcef7f0
 CLIENT_TRAFFIC_SECRET_0 c78dff94de43670828efaac938b40d0cfd8eaf86036c3b7ccb42c9be7ea904a2 f357a7b79be6395d341b510c64791d1a3c0bfe26eb28bdc146d2fd788f5f8872
 ```
-I keep searching and know they are SSLKEYLOGFILE. I need to decrypt them according to this [video](https://www.youtube.com/watch?v=CMbehohHj7c)
+I keep searching and know they are SSLKEYLOGFILE. I need to decrypt them according to this [video](https://www.youtube.com/watch?v=CMbehohHj7c). Refresh your wireshark, and filter HTTP2 (according to video, after decoding we can see messages in plain text). However, too much packet use protocol HTTP2, so we need to filter with keyword "password": 
 
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/112896213/25597715-adc7-43df-8d0c-cf01b4046052)
+
+## Flag
+
+> VishwaCTF{K3Y5_CAN_0P3N_10CK5}
