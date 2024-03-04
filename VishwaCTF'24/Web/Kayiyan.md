@@ -31,7 +31,42 @@ Using this web for decode : https://encode-decode.com/aes128-encrypt-online/
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/0ecc5751-359e-48f4-b9cf-8452908301fc)
 
 * Flag : `VishwaCTF{g0_Su88m1t_1t_Qu14kl7}`
+  
+# 2
+* Challenge Name : H34D3RS
+* Chall Description : Name of the challenge says something
 
+* Given : Nothing ( Start instance web ) 
+
+* Solution :
+
+Add headers : 
+
+Referer: https://vishwactf.com/
+Date: 2044
+Downlink: 999999999
+
+Fix : Upgrade-Insecure-Requests -> 10 and User-Agent: lorbrowser
+
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/af0a28fd-18ca-4f7e-a14a-eb9c2e48858c)
+
+* Flag : `VishwaCTF{s3cret_sit3_http_head3rs_r_c0o1}`
+# 3 
+
+* Challenge Name : HARDWARE HEIST
+* Chall Description : Your cyber gang has stolen a hardware device code from the CIA but are unable to use it. Although while stealing the code, you have found some binary strings which might be helpful to understand the device. You might even find the important codes after solving the device and strings.
+
+* Given : File Hardware.rar ( no need to use this ) and BINARY INPUT.txt
+
+* Solution :
+
+View file txt : `110100001101001100011110101101100110110010011010110111110110101111010111000111101011101111101101000110111101111111010000110100011001011001001110111011010001100100110011`
+
+Decode From binary range 7 because range 9 is out of range : 
+
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/2e019163-4b6a-47d2-b35a-7ef15cf757f3)
+
+* Flag : `VishwaCTF{h4ck325_5uck_47_h42dw423}`
 # 4.
 * Challenge Name : Sandese Aate hai
 * Chall Description : A friend pranked me by encrypting my letter but gave me the program by which he encrypted it. Can you help me decrypt it?
