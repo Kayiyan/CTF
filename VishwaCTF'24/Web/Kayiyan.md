@@ -154,5 +154,3 @@ Filter http with password contains in it :
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/2ec3b985-f2a3-4abb-8cd9-f512eeacb51c)
 
 * Flag : `VishwaCTF{K3Y5_CAN_0P3N_10CK5}`
-
-6.
