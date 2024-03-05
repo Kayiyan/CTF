@@ -154,3 +154,17 @@ Filter http with password contains in it :
 ![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/2ec3b985-f2a3-4abb-8cd9-f512eeacb51c)
 
 * Flag : `VishwaCTF{K3Y5_CAN_0P3N_10CK5}`
+
+6. 
+* Challenge Name : Recipe Archival Workshop
+* Chall Description : New interns in the Recipe Archival Workshop have a simple task- upload images of yummy delicacies and dream about tasting them some day.
+
+* Given : Nothing ( Start instance web ) 
+
+* Solution :
+
+Upload correct file type wiil give the flag -> use extension Upload Scanner from BurpSuite could help identify correct file type to upload is `.tiff` so basicly upload file `.tiff` could give the flag :
+
+![image](https://github.com/Kayiyan/CTF_Team_Write-up/assets/126185640/a8793667-4e8a-485a-9338-699b7923b3fe)
+
+* Flag : `VishwaCTF{today_i_wanted_to_eat_a_croissant_QUASO}`
